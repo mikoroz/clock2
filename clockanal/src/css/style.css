@@ -1,0 +1,58 @@
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height:773px;
+    width: 800px;
+    background: url(https://i.pinimg.com/originals/80/5b/41/805b416668c97734945d34c25e34a66c.png) no-repeat;
+    background-size: 100%;
+	radial-gradient(circle, rgb(37, 73, 90) 0%, rgb(25, 48, 60) 11%, rgba(9,25,33,1) 38%);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(134, 134, 134, 0.35),
+    inset 0 -15px 15px #191919,
+    0 15px 15px rgba(134, 134, 134, 0.35),
+    inset 0 15px 15px #191919
+    ;
+}
+
+ 
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 100px;
+    transform-origin: bottom;
+}
+ 
+#hour {
+    width: 2%;
+    height: 25%;
+    top: 26%;
+    left: 49.1%;
+
+}
+ 
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 21%;
+    left: 49.3%;
+
+}
+ 
+#second {
+    width: 1%;
+    height: 40%;
+    top: 11%;
+    left: 49.5%;
+
+}
+#clockDot{
+    position: absolute;
+	left: 49.3%;
+	top: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 100%;
